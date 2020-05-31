@@ -14,6 +14,14 @@ CSS
 <br />
 JavaScript
 
+### Back End:
+
+Node.js
+<br />
+Express
+<br />
+Nodemailer
+
 ### Version Control:
 
 Git
