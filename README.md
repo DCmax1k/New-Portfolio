@@ -2,7 +2,7 @@
 
 ## About the Project!
 
-This is my portfolio! There are my most popular projects, and a contact section within it!
+Welcome to my portfolio! There are my most popular projects, about me,  and a contact section within it!
 
 ## Skills used:
 
