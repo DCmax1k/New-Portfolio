@@ -153,23 +153,45 @@ header #headerLinks li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 33%;
+  height: 33.3333%;
   width: 100%;
 }
 
 #menuLinks li a {
   color: #efecec;
+  text-shadow: -5px 5px 5px black;
   text-decoration: none;
   font-size: 50px;
-  border: 3px solid #62929a;
+  border-bottom: 3px solid #62929a;
   padding: 20px;
   border-radius: 10px;
-  height: 90%;
+  height: 100%;
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0 2px #efecec;
+  /* For animation: */
+  transform: translateX(100%);
+}
+
+.link-animation {
+  animation: menuLink 0.7s ease forwards;
+}
+
+#menuLinks li a:hover {
+  text-decoration: underline;
+}
+
+/* Slide in animation */
+@keyframes menuLink {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 /* Home page */
@@ -779,6 +801,12 @@ footer {
   #aboutMsgCont {
     width: 90%;
   }
+  #thanksTitle h1 {
+    font-size: 30px;
+  }
+  #thanksTitle h2 {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 600px) {
   #mainTitle svg {
@@ -790,6 +818,19 @@ footer {
   #aboutMsgCont {
     width: 95%;
     height: 400px;
+  }
+  #thanksTitle {
+    top: 150px;
+  }
+  #thanksTitle h1 {
+    font-size: 28px;
+  }
+  #thanksTitle h2 {
+    top: 130px;
+    font-size: 20px;
+  }
+  #thanksBtn {
+    top: 400px;
   }
 }
 @media screen and (max-width: 500px) {
