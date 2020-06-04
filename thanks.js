@@ -26,6 +26,8 @@ exitBtn.addEventListener('click', () => {
 menuLinks.forEach((link) => {
   link.addEventListener('click', () => {
     menu.classList.remove('active');
-    link.classList.remove('link-animation');
+    menuLinks.forEach((link, i) => {
+      link.classList.remove('link-animation');
+    });
   });
 });
