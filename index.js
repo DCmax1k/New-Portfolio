@@ -1,8 +1,8 @@
 const viewSite1 = () => {
-  window.open('https://www.rock-paper-scissors.tk/');
+  window.open('https://articlez-project.herokuapp.com/');
 };
 const viewGit1 = () => {
-  window.open('https://github.com/DCmax1k/Rock-Paper-Scissors');
+  window.open('https://github.com/DCmax1k/Articlez');
 };
 
 const viewSite2 = () => {
