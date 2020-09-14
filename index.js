@@ -13,10 +13,10 @@ const viewGit2 = () => {
 };
 
 const viewSite3 = () => {
-  window.open('https://www.magic-calculator.tk/');
+  window.open('http://www.socialent.tk/');
 };
 const viewGit3 = () => {
-  window.open('https://github.com/DCmax1k/Magic-Calculator');
+  window.open('https://github.com/DCmax1k/Socialent');
 };
 
 const hamBtn = document.getElementById('hamMenu');
