@@ -25,7 +25,3 @@ Nodemailer
 ### Version Control:
 
 Git
-
-### Libraries:
-
-Sass
