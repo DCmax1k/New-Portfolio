@@ -460,7 +460,8 @@ header #headerLinks li a:hover {
   margin-top: 7px;
 }
 
-.project-btns p {
+.project-btns a {
+  text-decoration: none;
   width: 90%;
   height: 30px;
   background-color: #62929a;
